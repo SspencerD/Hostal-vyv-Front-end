@@ -74,6 +74,7 @@ export const StartLogin = (email, password) => {
   };
 };
 
+
 const login = (user) => ({
   type: types.authLogin,
     payload: user,
